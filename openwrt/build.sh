@@ -6,7 +6,16 @@ export BLUE_COLOR='\e[1;34m'
 export PINK_COLOR='\e[1;35m'
 export SHAN='\e[1;33;5m'
 export RES='\e[0m'
-
+export KERNEL_CLANG_LTO=y
+# GCC15
+export USE_GCC15=y
+export ENABLE_LTO=y
+export ENABLE_MOLD=y
+export ENABLE_BPF=y
+export ENABLE_LRNG=y
+export ENABLE_DPDK=y
+export BUILD_FAST=y
+export LAN=10.10.10.254
 GROUP=
 group() {
     endgroup
